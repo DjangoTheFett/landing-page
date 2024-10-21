@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+
+ 
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2837;
+    color: #e5e7eb;
+
+    
+    
+
+}
+
+
+.header li {
+    display: inline-block;
+    text-decoration: none;
+   
+
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.awesome-section {
+    display: flex;
+    background-color: #1f2837;
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: center;
+    padding-bottom: 75px;
+    gap: 24px;
+}
+
+.awesome-section img {
+    width: 400px;
+    height: 200px;
+}
+
+.awesome-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    gap: 8px;
+}
+.awesome-text button {
+
+    align-self: flex-start;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding:5px  20px  5px  20px;
+    border-radius: 10px;
+    border: solid 5px #3882f6;
+
+}
+
+.awesome-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.picture-section {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.picture-section img  {
+    width: 100px;
+    height: 100px;
+    border: solid 5px #3882f6 ;
+    border-radius: 5px;
+}
+
+.pics-with-text {
+    display: flex;
+    gap: 48px;
+    
+}
+
+.pics-with-text div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e5e7eb ;
+    height: 300px;
+}
+
+.quote-card {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937c7;
+   
+
+
+}
+
+.quoter {
+align-self: flex-end;
+color: #1f2837;
+font-size: 24px;
+font-weight: 900;
+}
+
+
+
+
+
+
